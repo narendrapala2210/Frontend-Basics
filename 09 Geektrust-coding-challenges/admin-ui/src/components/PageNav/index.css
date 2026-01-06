@@ -1,0 +1,17 @@
+.round-dlt {
+  width: 25px;
+  height: 25px;
+  border-radius: 20px;
+  margin: 0px 5px 0px 5px;
+  background-color: #228cf5;
+  color: white;
+  border: none;
+  font-weight: 300;
+  cursor: pointer;
+}
+.activeBtn {
+  background-color: white;
+  color: black;
+  font-weight: 900;
+  border: 1px solid #228cf5;
+}

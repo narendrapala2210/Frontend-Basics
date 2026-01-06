@@ -1,0 +1,32 @@
+.layout {
+  display: flex;
+  border-bottom: 1px solid black;
+  padding: 0px;
+  margin: 0px;
+}
+.start-layout-checkbox {
+  width: 15%;
+  text-align: start;
+}
+.start-layout-name {
+  width: 25%;
+  text-align: start;
+}
+.start-layout-email {
+  width: 30%;
+  text-align: start;
+}
+.start-layout-role {
+  width: 15%;
+  text-align: start;
+}
+.start-layout-action {
+  width: 15%;
+  text-align: start;
+}
+.action-btn {
+  margin: 3px;
+  background-color: transparent;
+  border :none;
+  cursor : pointer;
+}

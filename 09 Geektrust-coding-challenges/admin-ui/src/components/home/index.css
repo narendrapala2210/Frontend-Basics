@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+}
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+}
+
+.search-input {
+  width: 90%;
+  height: 30px;
+  padding: 0px 10px 0px 10px;
+}
+.ul-container {
+  list-style-type: none;
+  width: 90%;
+  height: 70vh;
+  padding-left: 0px;
+}
+.layout {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+}
+.start-layout-checkbox {
+  width: 15%;
+  text-align: start;
+}
+.start-layout-name {
+  width: 25%;
+  text-align: start;
+}
+.start-layout-email {
+  width: 30%;
+  text-align: start;
+}
+.start-layout-role {
+  width: 15%;
+  text-align: start;
+}
+.start-layout-action {
+  width: 15%;
+  text-align: center;
+}
+.page-nav-container {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+.delete-container {
+  width: 15%;
+  text-align: start;
+}
+/* .page-container {
+  display: flex;
+  justify-content: flex-start;
+} */
+
+.delete-btn-select {
+  color: red;
+  background-color: transparent;
+  width: 100px;
+  height: 30px;
+  font-size: 12px;
+  border: 1px solid red;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.search-input {
+  width: 90%;
+  height: 30px;
+  padding: 0px 10px 0px 10px;
+}

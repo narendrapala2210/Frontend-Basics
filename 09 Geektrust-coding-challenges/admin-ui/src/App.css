@@ -1,0 +1,18 @@
+.bg-container {
+  padding: 10px;
+}
+.search-input {
+  height: 30px;
+  width: 100%;
+  padding: 0px 10px 0px 10px;
+  border-radius: 2px;
+  border: 1px solid black;
+}
+.ui-layout {
+  padding: 0px;
+  margin: 0px;
+  width: 90%;
+  height : 100%;
+  display: flex;
+  justify-content: space-between;
+}
